@@ -1,0 +1,39 @@
+body{
+  text-align: center;
+  font-family: "Montserrat";
+  padding: 5%;
+}
+h1{
+  display: inline-block;
+  margin-bottom: 50px;
+
+}
+.text-box{
+  width: 30%;
+  text-align: center;
+  margin: 25px auto;
+}
+.button{
+  width: 30%;
+  margin: 25px auto;
+}
+.menu-link{
+  color: #fff;
+}
+.button-menu{
+  width: 30%;
+  margin: 35px auto;
+  padding: 10px;
+}
+.button-menu:hover{
+  background-color: #202040;
+  width: 40%;
+}
+@media (max-width:1000px) {
+  .text-box{
+    width: 40%;
+  }
+  .button-menu{
+    width: 35%;
+  }
+}
